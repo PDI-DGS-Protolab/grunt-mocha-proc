@@ -1,0 +1,34 @@
+{
+  "name": "grunt-mocha-proc",
+  "description": "A hacky wrapper mocha in separated processes",
+  "version": "0.1.0",
+  "contributors": [
+    {
+      "name": "Fernando Godino",
+      "email": "fgodino@conwet.com",
+      "url": "http://github.com/fgodino"
+    },
+  ],
+  "engines": {
+    "node": "*"
+  },
+  "dependencies": {
+    "mocha": "*"
+  },
+  "main": "lib/mocha-proc.js",
+  "devDependencies": {
+    "grunt": "0.4.0rc7",
+    "grunt-cli": "~0.1.6",
+    "grunt-contrib-nodeunit": "~0.1.0",
+    "should": "~1.2.1",
+    "tap": "~0.4.0"
+  },
+  "keywords": [
+    "gruntplugin",
+    "mocha",
+    "test"
+  ],
+  "readmeFilename": "README.md",
+  "_id": "grunt-mocha-proc@0.1.0",
+  "_from": "grunt-mocha-proc@~0.1.0"
+}
