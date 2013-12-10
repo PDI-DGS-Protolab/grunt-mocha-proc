@@ -45,7 +45,11 @@ module.exports = function(grunt) {
 
     async.series(tests, function(err, results){
       console.log(err, results);
-      gruntDone();
+      if(err){
+        console.error("Errors found");
+        console.error(results);
+      }
+      gruntDone(results.length);
     });
   });
 };
