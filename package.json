@@ -7,7 +7,7 @@
       "name": "Fernando Godino",
       "email": "fgodino@conwet.com",
       "url": "http://github.com/fgodino"
-    },
+    }
   ],
   "engines": {
     "node": "*"
